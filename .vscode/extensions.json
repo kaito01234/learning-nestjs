@@ -1,9 +1,11 @@
 {
-    "recommendations": [
-      "dbaeumer.vscode-eslint",
-      "esbenp.prettier-vscode",
-      "ms-azuretools.vscode-docker",
-      "mhutchie.git-graph",
-      "gizak.shortcuts"
-    ]
-  }
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "ms-azuretools.vscode-docker",
+    "mhutchie.git-graph",
+    "gizak.shortcuts",
+    "eamodio.gitlens",
+    "prisma.prisma"
+  ]
+}

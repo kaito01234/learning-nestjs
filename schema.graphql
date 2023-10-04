@@ -1,0 +1,18 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type First {
+  id: String!
+  title: String!
+}
+
+type Query {
+  first: [First!]
+  second: [Second!]
+}
+
+type Second {
+  id: String!
+  title: String!
+}
