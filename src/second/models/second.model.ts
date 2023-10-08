@@ -1,4 +1,5 @@
 import { Field, ObjectType } from '@nestjs/graphql';
+import { First } from 'src/first/models/first.model';
 
 @ObjectType()
 export class Second {
@@ -7,4 +8,7 @@ export class Second {
 
   @Field(() => String)
   title: string;
+
+  @Field(() => First)
+  first: First;
 }

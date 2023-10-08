@@ -7,12 +7,22 @@ type First {
   title: String!
 }
 
+input FirstInput {
+  id: String!
+  title: String!
+}
+
+type Mutation {
+  createFirst(firstInput: FirstInput!): First
+}
+
 type Query {
-  first: [First!]
-  second: [Second!]
+  getFirst(id: String!): [First!]
 }
 
 type Second {
+  first: First!
   id: String!
+  seconds: [Second!]!
   title: String!
 }

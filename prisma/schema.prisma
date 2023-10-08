@@ -11,11 +11,14 @@ datasource db {
 }
 
 model First {
-  id    String @unique
-  title String
+  id     String   @unique
+  title  String
+  second Second[]
 }
 
 model Second {
-  id    String @unique
-  title String
+  id      String @unique
+  title   String
+  first   First  @relation(fields: [firstId], references: [id])
+  firstId String
 }
