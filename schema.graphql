@@ -17,7 +17,7 @@ type Mutation {
 }
 
 type Query {
-  getFirst(id: String!): [First!]
+  getFirst(id: String!): First
 }
 
 type Second {
