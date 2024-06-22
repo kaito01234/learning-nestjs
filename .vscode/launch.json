@@ -5,12 +5,10 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "nestjs",
-      "type": "node",
+      "name": "Nest.js: debug",
+      "type": "node-terminal",
       "request": "launch",
-      "console": "integratedTerminal",
-      "runtimeExecutable": "npm",
-      "runtimeArgs": ["run", "start:debug"]
+      "command": "npm run start:dev"
     }
   ]
 }
